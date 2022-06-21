@@ -7,8 +7,8 @@
       The Authors
     </dc:creator>
     <dc:language>en-GB</dc:language>
-    <meta property="dcterms:modified">2022-06-13T10:29:45Z</meta>
-    <dc:date>2022-06-13</dc:date>
+    <meta property="dcterms:modified">2022-06-21T19:04:16Z</meta>
+    <dc:date>2022-06-21</dc:date>
     <dc:rights>Commons: Attribution-ShareAlike 4.0 International</dc:rights>
     <dc:publisher>The Publisher</dc:publisher>
     <dc:subject>collaborative editor</dc:subject>
@@ -27,18 +27,22 @@
     <item id="t4" href="document-4.xhtml" media-type="application/xhtml+xml" />
     <item id="t5" href="document-5.xhtml" media-type="application/xhtml+xml" />
     <item id="t6" href="document-6.xhtml" media-type="application/xhtml+xml" />
+    <item id="t7" href="document-7.xhtml" media-type="application/xhtml+xml" />
     <item id="nav" href="document-nav.xhtml" properties="nav" media-type="application/xhtml+xml" />
     <item id="copyright" href="copyright.xhtml" media-type="application/xhtml+xml" />
     <item id="img0" href="images/b3bc6ba5-db38-4ec8-89db-45c029fdb485.png" media-type="image/png" />
     <item id="img1" href="images/60a0cd01-c4e1-467e-a517-a5ae77dbbbaf.png" media-type="image/png" />
     <item id="img2" href="images/fec439eb-c4d6-4587-a4a2-affde7c45586.png" media-type="image/png" />
-    <item id="img3" href="images/5656f6ad-7ef0-4a57-9d81-9fc2ecfc77bc.png" media-type="image/png" />
-    <item id="img4" href="images/9e5d1d14-244e-4d55-b1f9-effb37b619e9.png" media-type="image/png" />
-    <item id="img5" href="images/2be7082d-cf81-4659-be99-15f41a555f0a.png" media-type="image/png" />
-    <item id="img6" href="images/e38b98ce-9984-4980-9b46-52a2a0acdbe5.png" media-type="image/png" />
-    <item id="img7" href="images/8a7e23ca-ece1-4c13-8192-e6b2ff7e5fc0.png" media-type="image/png" />
-    <item id="img8" href="images/1a7c5c9b-9451-4bd9-a21f-c0897cfb9d07.png" media-type="image/png" />
-    <item id="img9" href="images/1f9fd912-8fb6-4e4e-9ecb-e91220e21b85.png" media-type="image/png" />
+    <item id="img3" href="images/33ede307-f4a4-4660-92d2-92ccb1ef61d5.jpg" media-type="image/jpeg" />
+    <item id="img4" href="images/5656f6ad-7ef0-4a57-9d81-9fc2ecfc77bc.png" media-type="image/png" />
+    <item id="img5" href="images/6c70c3fd-31ab-446b-bfe3-5a7ee1e2f98f.png" media-type="image/png" />
+    <item id="img6" href="images/56369a22-3b5a-4691-aa78-51a8bd4bba37.png" media-type="image/png" />
+    <item id="img7" href="images/9e5d1d14-244e-4d55-b1f9-effb37b619e9.png" media-type="image/png" />
+    <item id="img8" href="images/2be7082d-cf81-4659-be99-15f41a555f0a.png" media-type="image/png" />
+    <item id="img9" href="images/e38b98ce-9984-4980-9b46-52a2a0acdbe5.png" media-type="image/png" />
+    <item id="img10" href="images/8a7e23ca-ece1-4c13-8192-e6b2ff7e5fc0.png" media-type="image/png" />
+    <item id="img11" href="images/1a7c5c9b-9451-4bd9-a21f-c0897cfb9d07.png" media-type="image/png" />
+    <item id="img12" href="images/1f9fd912-8fb6-4e4e-9ecb-e91220e21b85.png" media-type="image/png" />
     <item id="font0" href="css/media/FiraSans-Regular.ttf" media-type="font/sfnt" />
     <item id="font1" href="css/media/FiraSans-Medium.ttf" media-type="font/sfnt" />
     <item id="font2" href="css/media/FiraSans-MediumItalic.ttf" media-type="font/sfnt" />
@@ -68,6 +72,7 @@
     <itemref idref="t4" linear="yes" />
     <itemref idref="t5" linear="yes" />
     <itemref idref="t6" linear="yes" />
+    <itemref idref="t7" linear="yes" />
     <itemref idref="copyright" linear="yes" />
     <itemref idref="nav" linear="no" />
   </spine>

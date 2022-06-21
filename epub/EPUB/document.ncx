@@ -10,14 +10,18 @@
 
     <!-- 2.01 NCX: playOrder is optional -->
     <navPoint id="t1">
-      <navLabel><text>Titelseite</text></navLabel>
+      <navLabel><text>Title page</text></navLabel>
       <content src="titlepage.xhtml#title" />
     </navPoint>
     <navPoint id="t_1_0-1">
       <navLabel><text>Welcome!</text></navLabel>
       <content src="document-1.xhtml#_1_0" />
+      <navPoint id="tH584803-1">
+        <navLabel><text>Digital sovereignty</text></navLabel>
+        <content src="document-1.xhtml#H584803" />
+      </navPoint>
       <navPoint id="tH2087393-1">
-        <navLabel><text>Features include</text></navLabel>
+        <navLabel><text>Features included</text></navLabel>
         <content src="document-1.xhtml#H2087393" />
       </navPoint>
       <navPoint id="tH7757657-1">
@@ -25,13 +29,21 @@
         <content src="document-1.xhtml#H7757657" />
       </navPoint>
       <navPoint id="tH3159430-1">
-        <navLabel><text>The steps used to create a book</text></navLabel>
+        <navLabel><text>The steps used to create a publication</text></navLabel>
         <content src="document-1.xhtml#H3159430" />
       </navPoint>
     </navPoint>
     <navPoint id="t_2_0-2">
-      <navLabel><text>Step 1: Make a Repository</text></navLabel>
+      <navLabel><text>Step 1: Make a Repository</text></navLabel>
       <content src="document-2.xhtml#_2_0" />
+      <navPoint id="tH4018151-2">
+        <navLabel><text>About</text></navLabel>
+        <content src="document-2.xhtml#H4018151" />
+      </navPoint>
+      <navPoint id="tH1473428-2">
+        <navLabel><text>Step-by-step guide</text></navLabel>
+        <content src="document-2.xhtml#H1473428" />
+      </navPoint>
     </navPoint>
     <navPoint id="t_3_0-3">
       <navLabel><text>Step 2: Create a Book</text></navLabel>
@@ -48,6 +60,14 @@
     <navPoint id="t_6_0-6">
       <navLabel><text>Step 5: Enhanced Publications</text></navLabel>
       <content src="document-6.xhtml#_6_0" />
+    </navPoint>
+    <navPoint id="t_7_0-7">
+      <navLabel><text>Imprint</text></navLabel>
+      <content src="document-7.xhtml#_7_0" />
+      <navPoint id="tH8275517-7">
+        <navLabel><text>Open licencing</text></navLabel>
+        <content src="document-7.xhtml#H8275517" />
+      </navPoint>
     </navPoint>
     <navPoint id="t2">
       <navLabel><text>Copyright</text></navLabel>
