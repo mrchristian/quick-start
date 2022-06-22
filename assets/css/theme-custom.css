@@ -50,7 +50,7 @@
 }
 .content .markdown-section nav::before {
     content: "";
-    /*font-family: "Sora", sans-serif;
+    /*font-family: "Fira Sans", sans-serif;
     font-weight: 600;
     line-height: 1.25em;
     color: #001949;
@@ -283,6 +283,9 @@ color: var(--base-color);
   text-decoration: none!important;
   font-size: 1rem;
 }
+.content .markdown-section .tocpage a:visited {
+  color: #000;
+}
 .content .markdown-section .tocpage ol li::before {
   content: '\f107';
   font: var(--fa-font-solid);
@@ -344,7 +347,7 @@ color: var(--base-color);
   background-color: #fde5cd;
 }
 .content .markdown-section table caption, .content .markdown-section figure figcaption {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     margin: 0.5em 0 0.75em;
     text-align: left;
     font-style: normal;
@@ -361,11 +364,11 @@ color: var(--base-color);
 
 .content .markdown-section section.fnlist {
   display: block!important;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   margin-top:2rem;
 }
 .content .markdown-section section.fnlist p {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   line-height: 1.4;
 }
 .content .markdown-section  .footnote-counter::before {
@@ -379,6 +382,7 @@ color: var(--base-color);
   section[role=doc-footnote]:first-of-type::before {
       content: 'Footnote';
       display: block;
+      font-size: 0.9rem;
       border-bottom: 1px solid black;
       height: 2em;
       margin-bottom: 1em;
