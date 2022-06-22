@@ -60,6 +60,13 @@
 .sidebar-nav li {
   padding-left: 0.8rem;
 }
+.sidebar>h1 .app-name-link:hover{
+  color: #000;
+  font-weight: 400;
+}
+.content strong {
+    color: inherit;
+}
 /* Frontmatter*/
 .content .markdown-section div.titlepage {/*background-image: url("https://raw.githubusercontent.com/mrchristian/quick-start/05c5b3dd2bdbdfd785bb158752e3bd3c7b415c66/assets/logo-gfm.png");
 background-position: bottom;
@@ -326,6 +333,15 @@ color: var(--base-color);
   font-style: italic;
   /*background-color: rgb(241,248,250);
   border-bottom: 2px solid #0B87DA;*/
+}
+.markdown-section td {
+  border-color: var(--link-border-color);
+}
+.markdown-section tbody tr:nth-child(odd) {
+  background-color: #FDD5A5;
+}
+.markdown-section tbody tr:nth-child(even) {
+  background-color: #fde5cd;
 }
 .content .markdown-section table caption, .content .markdown-section figure figcaption {
     font-size: 0.8rem;
