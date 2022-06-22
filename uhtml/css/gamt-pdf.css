@@ -3,105 +3,105 @@
     font-family: "Fira Sans", helvetica neue, arial, sans-serif;
     font-weight: normal;
     font-style: normal;
-    src : url(/media/media/FiraSans-Regular.ttf);
+    src : url(media/FiraSans-Regular.ttf);
 }
 @font-face {
     font-family: "Fira Sans", helvetica neue, arial, sans-serif;
     font-weight: normal;
     font-style: italic;
-    src : url(/media/media/FiraSans-Italic.ttf);
+    src : url(media/FiraSans-Italic.ttf);
 }
 @font-face {
     font-family: "Fira Sans", helvetica neue, arial, sans-serif;
     font-weight: bold;
     font-style: normal;
-    src : url(/media/media/FiraSans-Bold.ttf);
+    src : url(media/FiraSans-Bold.ttf);
 }
 @font-face {
     font-family: "Fira Sans", helvetica neue, arial, sans-serif;
     font-weight: bold;
     font-style: italic;
-    src : url(/media/media/FiraSans-BoldItalic.ttf);
+    src : url(media/FiraSans-BoldItalic.ttf);
 }
 @font-face {
     font-family: "Fira Sans", helvetica neue, arial, sans-serif;
     font-weight: 500;
     font-style: normal;
-    src : url(/media/media/FiraSans-Medium.ttf);
+    src : url(media/FiraSans-Medium.ttf);
 }
 @font-face {
     font-family: "Fira Sans", helvetica neue, arial, sans-serif;
     font-weight: 500;
     font-style: italic;
-    src : url(/media/media/FiraSans-MediumItalic.ttf);
+    src : url(media/FiraSans-MediumItalic.ttf);
 }
 @font-face {
     font-family: "Fira Sans", helvetica neue, arial, sans-serif;
     font-weight: 600;
     font-style: normal;
-    src : url(/media/media/FiraSans-SemiBold.ttf);
+    src : url(media/FiraSans-SemiBold.ttf);
 }
 
 @font-face {
     font-family: "Fira Sans", helvetica neue, arial, sans-serif;
     font-weight: 600;
     font-style: italic;
-    src : url(/media/media/FiraSans-SemiBoldItalic.ttf);
+    src : url(media/FiraSans-SemiBoldItalic.ttf);
 }
 @font-face {
     font-family: "Fira Sans", helvetica neue, arial, sans-serif;
     font-weight: 300;
     font-style: normal;
-    src : url(/media/media/FiraSans-Light.ttf);
+    src : url(media/FiraSans-Light.ttf);
 }
 @font-face {
     font-family: "Fira Sans", helvetica neue, arial, sans-serif;
     font-weight: 300;
     font-style: italic;
-    src : url(/media/media/FiraSans-LightItalic.ttf);
+    src : url(media/FiraSans-LightItalic.ttf);
 }
 @font-face {
     font-family: "Fira Sans", helvetica neue, arial, sans-serif;
     font-weight: 200;
     font-style: normal;
-    src : url(/media/FiraSans-ExtraLight.ttf);
+    src : url(FiraSans-ExtraLight.ttf);
 }
 @font-face {
     font-family: "Fira Sans", helvetica neue, arial, sans-serif;
     font-weight: 200;
     font-style: italic;
-    src : url(/media/FiraSans-ExtraLightItalic.ttf);
+    src : url(FiraSans-ExtraLightItalic.ttf);
 }
 /*Condesed*/
 @font-face {
     font-family: "Fira Sans Condensed", helvetica neue, arial, sans-serif;
     font-weight: 600;
     font-style: normal;
-    src : url(/media/media/FiraSansCondensed-SemiBold.ttf);
+    src : url(media/FiraSansCondensed-SemiBold.ttf);
 }
 @font-face {
     font-family: "Fira Sans Condensed", helvetica neue, arial, sans-serif;
     font-weight: 500;
     font-style: normal;
-    src : url(/media/media/FiraSansCondensed-Medium.ttf);
+    src : url(media/FiraSansCondensed-Medium.ttf);
 }
 @font-face {
     font-family: "Fira Sans Condensed", helvetica neue, arial, sans-serif;
     font-weight: 400;
     font-style: normal;
-    src : url(/media/media/FiraSansCondensed-Regular.ttf);
+    src : url(media/FiraSansCondensed-Regular.ttf);
 }
 @font-face {
     font-family: "Fira Sans Condensed", helvetica neue, arial, sans-serif;
     font-weight: 300;
     font-style: normal;
-    src : url(/media/media/FiraSansCondensed-Light.ttf);
+    src : url(media/FiraSansCondensed-Light.ttf);
 }
 @font-face {
     font-family: "Fira Sans Condensed", helvetica neue, arial, sans-serif;
     font-weight: 200;
     font-style: normal;
-    src : url(/media/media/FiraSansCondensed-ExtraLight.ttf);
+    src : url(media/FiraSansCondensed-ExtraLight.ttf);
 }
 @page {
   size: 210mm 297mm;
