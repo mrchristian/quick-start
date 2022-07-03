@@ -23,9 +23,10 @@
                 
 }
             
+\usepackage{enumitem}
 \begin{document}
 
-\title{Step 1: Make a Repository}
+\title{Step 1: Make a Repository and Website}
 
 \maketitle
 
@@ -43,12 +44,12 @@ The reposoitories use \href{https://git-scm.com/}{Git}\footnote{Git is open-sour
 We save to GitHub and GitLab \autocite{PerkelJeffrey2016}. GitLab can be used as \href{GitLab.com}{GitLab.com} or as a self-hosted instance for private publications, or for staging publicatiobs. We use GitLab Community Edition for self-hosting which is open-source software. GitHub is not open-source but is useful for distribution and visibility.
 
 \begin{figure}
-\scaledgraphics{33ede307-f4a4-4660-92d2-92ccb1ef61d5.jpg}{0.5}
+\scaledgraphics{26972b81-3aa5-42db-9da6-7ab6ab269dc3.jpg}{0.5}
 \caption*{Git logo}\label{F22345641}
 \end{figure}
 
 \begin{figure}
-\scaledgraphics{5656f6ad-7ef0-4a57-9d81-9fc2ecfc77bc.png}{0.5}
+\scaledgraphics{db781e4a-0460-4824-8351-05102a800d4e.jpg}{0.5}
 \caption*{Octocat: GitHub's mascot}\label{F44428261}
 \end{figure}
 
@@ -79,16 +80,118 @@ These steps will allow you to create a repository to for your publication with t
 Go to the website \href{https://github.com/}{GitHub.com} and create an account.
 
 
-\item Use a GitHub Template Repository
+\item Use a GitHub Template Repository (Repo)
 
 
+You will create a prepopulated GitHub template repository for you publication. The template repo contains componts for creating the website and providing links to the other publication formats in the website.
+
+\begin{enumerate}
+\item Navigate to the \href{https://github.com/gesunheitsamt-frankfurt/publication-git-template}{template repo} and click the green button 'Use this template'.
 
 
+\end{enumerate}
+\begin{figure}
+\scaledgraphics{a1372970-e67a-4bd6-ac76-6bd8b5e9c9df.png}{1}
+\label{F64968441}
+\end{figure}
+
+\begin{enumerate}[start=2]
+\item Then choose \textbf{where you will make the new repo} and \textbf{its name}. Once chosen click 'Create repository from this template'.
+
+\begin{figure}
+\scaledgraphics{e1a9d7d5-e934-4366-87e6-7b7fe69f5fd1.png}{1}
+\label{F34914491}
+\end{figure}
+
+
+\textbf{Where to save your repo?} In GitHub you can save repos with organisations or in your personal account, select this under the field labeled 'Owner'.
+
+
+\textbf{How to name your repo?} The name of the repo will be its display name and URL address. It is good practice to adopt a naming convention style to be inline with other publications, this might be a short title, or even an acronym. Note it is good practice to use only lowercase in the name as the URL is case sensitive. Names can be changed at any time but it will change any associated URLs.
+
+
+\textbf{Other settings:} You can give the repo a description; make the repo public is the default, and the click greed button.
+
+
+\end{enumerate}
 
 \item Turn on your website
 
 
+GitHub has a service called GitHub Pages. This creates free websites on the domain github.io or you can use your own custom domain. The default URL address pattern is https://organisation-name.github.io/publication-name/. The content from your repo will be available on the URL. 
+
+
+This is a two step process.
+
+
+\textbf{First:}
+
+\begin{figure}
+\scaledgraphics{cd4aad9d-5d95-4ecd-944d-f1f6ce8e75f3.png}{1}
+\label{F72332451}
+\end{figure}
+
+
+Navigate to 'Settings' in the top horizontal options. In settings on the left menu select 'Pages'. In the dialog in the main page use the following settings: Select branch - main; select folder - root, and; click save. This will complete the site creation and give you a URL for your website. Copy the URL and you can then use it to add address to front end of the repo.
+
+\begin{figure}
+\scaledgraphics{d941d969-3938-4dec-aa57-a45debb46e84.png}{1}
+\label{F78400191}
+\end{figure}
+
+
+To paste the site name into the front end of your repo first go to the front end of the repo by clicking <code>. To the right click the cog next to About and in here you can paste in the URL and save.
+
+\begin{figure}
+\scaledgraphics{7b251363-3e8f-4da0-9185-bb245e4aaa97.png}{1}
+\label{F80239021}
+\end{figure}
+
+
+You will now have a website and the address appears top right.
+
+\begin{figure}
+\scaledgraphics{8a364c1f-1553-4b44-9974-77307c345b2e.png}{1}
+\label{F8612631}
+\end{figure}
+
+
+Your website will look like this. Currently the site will contain benchmark content to demonstate that layout features are working correctly. This content will be removed once you output your publication.
+
+\begin{figure}
+\scaledgraphics{a0b7b868-c526-485f-8f20-c2460cb693ac.png}{1}
+\label{F85415421}
+\end{figure}
+
+
+\textbf{Step 2:}
+
+
+To enable the Paginated Web version of your publication the repo address needs to be added to the setup.json file in the top level of your repo.
+
+\begin{figure}
+\scaledgraphics{fde2c425-6646-447e-94ee-d0d93459de8a.png}{1}
+\label{F23728731}
+\end{figure}
+
+
+Edit the file setup.json and add in the organisation name and repo name into line 3 and save at the bottom of the page. "repoURL": "https://github.com/organisation-name/publication-name/".
+
+\begin{figure}
+\scaledgraphics{a4d479fd-2aea-4114-8740-571c5d952b93.png}{1}
+\label{F41371831}
+\end{figure}
+
+\begin{figure}
+\scaledgraphics{693958a1-b909-4dfd-ac6a-0ede6a0c344b.png}{1}
+\label{F50720561}
+\end{figure}
+
+
 \item Connect Fidus Writer to GitHub
+
+
+
 
 
 \item Export your publication to GitHub

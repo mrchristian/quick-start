@@ -34,7 +34,7 @@
       </navPoint>
     </navPoint>
     <navPoint id="t_2_0-2">
-      <navLabel><text>Step 1: Make a Repository</text></navLabel>
+      <navLabel><text>Step 1: Make a Repository and Website</text></navLabel>
       <content src="document-2.xhtml#_2_0" />
       <navPoint id="tH4018151-2">
         <navLabel><text>About</text></navLabel>

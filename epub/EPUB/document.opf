@@ -7,8 +7,8 @@
       The Authors
     </dc:creator>
     <dc:language>en-GB</dc:language>
-    <meta property="dcterms:modified">2022-06-21T19:24:21Z</meta>
-    <dc:date>2022-06-21</dc:date>
+    <meta property="dcterms:modified">2022-07-03T09:22:38Z</meta>
+    <dc:date>2022-07-03</dc:date>
     <dc:rights>Commons: Attribution-ShareAlike 4.0 International</dc:rights>
     <dc:publisher>The Publisher</dc:publisher>
     <dc:subject>collaborative editor</dc:subject>
@@ -33,16 +33,26 @@
     <item id="img0" href="images/b3bc6ba5-db38-4ec8-89db-45c029fdb485.png" media-type="image/png" />
     <item id="img1" href="images/60a0cd01-c4e1-467e-a517-a5ae77dbbbaf.png" media-type="image/png" />
     <item id="img2" href="images/fec439eb-c4d6-4587-a4a2-affde7c45586.png" media-type="image/png" />
-    <item id="img3" href="images/33ede307-f4a4-4660-92d2-92ccb1ef61d5.jpg" media-type="image/jpeg" />
-    <item id="img4" href="images/5656f6ad-7ef0-4a57-9d81-9fc2ecfc77bc.png" media-type="image/png" />
+    <item id="img3" href="images/26972b81-3aa5-42db-9da6-7ab6ab269dc3.jpg" media-type="image/jpeg" />
+    <item id="img4" href="images/db781e4a-0460-4824-8351-05102a800d4e.jpg" media-type="image/jpeg" />
     <item id="img5" href="images/6c70c3fd-31ab-446b-bfe3-5a7ee1e2f98f.png" media-type="image/png" />
     <item id="img6" href="images/56369a22-3b5a-4691-aa78-51a8bd4bba37.png" media-type="image/png" />
-    <item id="img7" href="images/9e5d1d14-244e-4d55-b1f9-effb37b619e9.png" media-type="image/png" />
-    <item id="img8" href="images/2be7082d-cf81-4659-be99-15f41a555f0a.png" media-type="image/png" />
-    <item id="img9" href="images/e38b98ce-9984-4980-9b46-52a2a0acdbe5.png" media-type="image/png" />
-    <item id="img10" href="images/8a7e23ca-ece1-4c13-8192-e6b2ff7e5fc0.png" media-type="image/png" />
-    <item id="img11" href="images/1a7c5c9b-9451-4bd9-a21f-c0897cfb9d07.png" media-type="image/png" />
-    <item id="img12" href="images/1f9fd912-8fb6-4e4e-9ecb-e91220e21b85.png" media-type="image/png" />
+    <item id="img7" href="images/a1372970-e67a-4bd6-ac76-6bd8b5e9c9df.png" media-type="image/png" />
+    <item id="img8" href="images/e1a9d7d5-e934-4366-87e6-7b7fe69f5fd1.png" media-type="image/png" />
+    <item id="img9" href="images/cd4aad9d-5d95-4ecd-944d-f1f6ce8e75f3.png" media-type="image/png" />
+    <item id="img10" href="images/d941d969-3938-4dec-aa57-a45debb46e84.png" media-type="image/png" />
+    <item id="img11" href="images/7b251363-3e8f-4da0-9185-bb245e4aaa97.png" media-type="image/png" />
+    <item id="img12" href="images/8a364c1f-1553-4b44-9974-77307c345b2e.png" media-type="image/png" />
+    <item id="img13" href="images/a0b7b868-c526-485f-8f20-c2460cb693ac.png" media-type="image/png" />
+    <item id="img14" href="images/fde2c425-6646-447e-94ee-d0d93459de8a.png" media-type="image/png" />
+    <item id="img15" href="images/a4d479fd-2aea-4114-8740-571c5d952b93.png" media-type="image/png" />
+    <item id="img16" href="images/693958a1-b909-4dfd-ac6a-0ede6a0c344b.png" media-type="image/png" />
+    <item id="img17" href="images/9e5d1d14-244e-4d55-b1f9-effb37b619e9.png" media-type="image/png" />
+    <item id="img18" href="images/2be7082d-cf81-4659-be99-15f41a555f0a.png" media-type="image/png" />
+    <item id="img19" href="images/e38b98ce-9984-4980-9b46-52a2a0acdbe5.png" media-type="image/png" />
+    <item id="img20" href="images/8a7e23ca-ece1-4c13-8192-e6b2ff7e5fc0.png" media-type="image/png" />
+    <item id="img21" href="images/1a7c5c9b-9451-4bd9-a21f-c0897cfb9d07.png" media-type="image/png" />
+    <item id="img22" href="images/1f9fd912-8fb6-4e4e-9ecb-e91220e21b85.png" media-type="image/png" />
     <item id="font0" href="css/media/FiraSans-Regular.ttf" media-type="font/sfnt" />
     <item id="font1" href="css/media/FiraSans-Medium.ttf" media-type="font/sfnt" />
     <item id="font2" href="css/media/FiraSans-MediumItalic.ttf" media-type="font/sfnt" />
@@ -58,6 +68,8 @@
     <item id="font12" href="css/media/FiraSansCondensed-Medium.ttf" media-type="font/sfnt" />
     <item id="font13" href="css/media/FiraSansCondensed-Light.ttf" media-type="font/sfnt" />
     <item id="font14" href="css/media/FiraSansCondensed-ExtraLight.ttf" media-type="font/sfnt" />
+    <item id="font15" href="css/media/FiraSans-ExtraLightItalic.ttf" media-type="font/sfnt" />
+    <item id="font16" href="css/media/FiraSans-ExtraLight.ttf" media-type="font/sfnt" />
     <item id="css0" href="css/document.css" media-type="text/css" />
     <item id="css1" href="css/gamt-pdf.css" media-type="text/css" />
 

@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" xmlns:epub="http://www.idpf.org/2007/ops">
   <head>
-    <title>Step 1: Make a Repository</title>
+    <title>Step 1: Make a Repository and Website</title>
     <link rel="stylesheet" type="text/css" href="css/document.css" />
     <link rel="stylesheet" type="text/css" href="css/gamt-pdf.css" />
   </head>
-  <body class="content" data-title="Step 1: Make a Repository">
-    <div class="article-part article-title" id="_2_0">Step 1: Make a Repository</div>
+  <body class="content" data-title="Step 1: Make a Repository and Website">
+    <div class="article-part article-title" id="_2_0">Step 1: Make a Repository and Website</div>
     <div class="article-part article-richtext article-body">
       <p>A repository is the data storage location of your outputted publication.</p>
       <h2 id="H4018151">About</h2>
       <p>The reposoitories use <a href="https://git-scm.com/" title="https://git-scm.com/">Git</a><sup><a epub:type="noteref" href="#fn1">1</a></sup> technology which allows for versioning of your publication.</p>
       <p>We save to GitHub and GitLab <span class="citation">(Perkel  2016)</span>. GitLab can be used as <a href="GitLab.com" title="GitLab.com">GitLab.com</a> or as a self-hosted instance for private publications, or for staging publicatiobs. We use GitLab Community Edition for self-hosting which is open-source software. GitHub is not open-source but is useful for distribution and visibility.</p>
-      <figure id="F22345641" class="aligned-center image-width-50" data-aligned="center" data-width="50" data-category="none"><img src="images/33ede307-f4a4-4660-92d2-92ccb1ef61d5.jpg" />
+      <figure id="F22345641" class="aligned-center image-width-50" data-aligned="center" data-width="50" data-category="none"><img src="images/26972b81-3aa5-42db-9da6-7ab6ab269dc3.jpg" />
         <figcaption><span class="label"/><span class="text">Git logo</span></figcaption>
       </figure>
-      <figure id="F44428261" class="aligned-center image-width-50" data-aligned="center" data-width="50" data-category="none"><img src="images/5656f6ad-7ef0-4a57-9d81-9fc2ecfc77bc.png" />
+      <figure id="F44428261" class="aligned-center image-width-50" data-aligned="center" data-width="50" data-category="none"><img src="images/db781e4a-0460-4824-8351-05102a800d4e.jpg" />
         <figcaption><span class="label"/><span class="text">Octocat: GitHub's mascot</span></figcaption>
       </figure>
       <figure id="F88034391" class="aligned-center image-width-50" data-aligned="center" data-width="50" data-category="none"><img src="images/6c70c3fd-31ab-446b-bfe3-5a7ee1e2f98f.png" />
@@ -31,14 +31,48 @@
           <p>Go to the website <a href="https://github.com/" title="https://github.com/">GitHub.com</a> and create an account.</p>
         </li>
         <li>
-          <p>Use a GitHub Template Repository</p>
-          <p />
+          <p>Use a GitHub Template Repository (Repo)</p>
+          <p>You will create a prepopulated GitHub template repository for you publication. The template repo contains componts for creating the website and providing links to the other publication formats in the website.</p>
+          <ol id="L61568871">
+            <li>
+              <p>Navigate to the <a href="https://github.com/gesunheitsamt-frankfurt/publication-git-template" title="https://github.com/gesunheitsamt-frankfurt/publication-git-template">template repo</a> and click the green button 'Use this template'.</p>
+            </li>
+          </ol>
+          <figure id="F64968441" class="aligned-center image-width-100" data-aligned="center" data-width="100" data-category="none" data-caption-hidden="true"><img src="images/a1372970-e67a-4bd6-ac76-6bd8b5e9c9df.png" /></figure>
+          <ol id="L3860141" start="2">
+            <li>
+              <p>Then choose <strong>where you will make the new repo</strong> and <strong>its name</strong>. Once chosen click 'Create repository from this template'.</p>
+              <figure id="F34914491" class="aligned-center image-width-100" data-aligned="center" data-width="100" data-category="none" data-caption-hidden="true"><img src="images/e1a9d7d5-e934-4366-87e6-7b7fe69f5fd1.png" /></figure>
+              <p><strong>Where to save your repo?</strong> In GitHub you can save repos with organisations or in your personal account, select this under the field labeled 'Owner'.</p>
+              <p><strong>How to name your repo?</strong> The name of the repo will be its display name and URL address. It is good practice to adopt a naming convention style to be inline with other publications, this might be a short title, or even an acronym. Note it is good practice to use only lowercase in the name as the URL is case sensitive. Names can be changed at any time but it will change any associated URLs.</p>
+              <p><strong>Other settings:</strong> You can give the repo a description; make the repo public is the default, and the click greed button.</p>
+            </li>
+          </ol>
         </li>
         <li>
           <p>Turn on your website</p>
+          <p>GitHub has a service called GitHub Pages. This creates free websites on the domain github.io or you can use your own custom domain. The default URL address pattern is https://organisation-name.github.io/publication-name/. The content from your repo will be available on the URL. </p>
+          <p>This is a two step process.</p>
+          <p><strong>First:</strong></p>
+          <figure id="F72332451" class="aligned-center image-width-100" data-aligned="center" data-width="100" data-category="none" data-caption-hidden="true"><img src="images/cd4aad9d-5d95-4ecd-944d-f1f6ce8e75f3.png" /></figure>
+          <p>Navigate to 'Settings' in the top horizontal options. In settings on the left menu select 'Pages'. In the dialog in the main page use the following settings: Select branch - main; select folder - root, and; click save. This will complete the site creation and give you a URL for your website. Copy the URL and you can then use it to add address to front end of the repo.</p>
+          <figure id="F78400191" class="aligned-center image-width-100" data-aligned="center" data-width="100" data-category="none" data-caption-hidden="true"><img src="images/d941d969-3938-4dec-aa57-a45debb46e84.png" /></figure>
+          <p>To paste the site name into the front end of your repo first go to the front end of the repo by clicking &lt;code&gt;. To the right click the cog next to About and in here you can paste in the URL and save.</p>
+          <figure id="F80239021" class="aligned-center image-width-100" data-aligned="center" data-width="100" data-category="none" data-caption-hidden="true"><img src="images/7b251363-3e8f-4da0-9185-bb245e4aaa97.png" /></figure>
+          <p>You will now have a website and the address appears top right.</p>
+          <figure id="F8612631" class="aligned-center image-width-100" data-aligned="center" data-width="100" data-category="none" data-caption-hidden="true"><img src="images/8a364c1f-1553-4b44-9974-77307c345b2e.png" /></figure>
+          <p>Your website will look like this. Currently the site will contain benchmark content to demonstate that layout features are working correctly. This content will be removed once you output your publication.</p>
+          <figure id="F85415421" class="aligned-center image-width-100" data-aligned="center" data-width="100" data-category="none" data-caption-hidden="true"><img src="images/a0b7b868-c526-485f-8f20-c2460cb693ac.png" /></figure>
+          <p><strong>Step 2:</strong></p>
+          <p>To enable the Paginated Web version of your publication the repo address needs to be added to the setup.json file in the top level of your repo.</p>
+          <figure id="F23728731" class="aligned-center image-width-100" data-aligned="center" data-width="100" data-category="none" data-caption-hidden="true"><img src="images/fde2c425-6646-447e-94ee-d0d93459de8a.png" /></figure>
+          <p>Edit the file setup.json and add in the organisation name and repo name into line 3 and save at the bottom of the page. "repoURL": "https://github.com/organisation-name/publication-name/".</p>
+          <figure id="F41371831" class="aligned-center image-width-100" data-aligned="center" data-width="100" data-category="none" data-caption-hidden="true"><img src="images/a4d479fd-2aea-4114-8740-571c5d952b93.png" /></figure>
+          <figure id="F50720561" class="aligned-center image-width-100" data-aligned="center" data-width="100" data-category="none" data-caption-hidden="true"><img src="images/693958a1-b909-4dfd-ac6a-0ede6a0c344b.png" /></figure>
         </li>
         <li>
           <p>Connect Fidus Writer to GitHub</p>
+          <p />
         </li>
         <li>
           <p>Export your publication to GitHub</p>
