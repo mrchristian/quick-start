@@ -94,24 +94,41 @@
     <div class="titlepage frontmatter">
       <h1 class="booktitle">Quick Start Guide</h1>
       <h2 class="booksubtitle">Publishing Pipeline</h2>
-      <h3 class="bookauthor">von The Authors</h3>
+      <h3 class="bookauthor">by The Authors</h3>
       <h4 class="bookversion">Pre-release v0.1</h4>
     </div>
     <div class="copyrightpage frontmatter">
-      <p>Publiziert von: The Publisher</p>
-      <p>Zuletzt verändert: 2022-07-03</p>
-      <p>Erstellt: 2022-05-24</p>
-      <p>Sprache: Deutsch</p>
-      <p>Erstellt von: User Name</p>
+      <p>Published by: The Publisher</p>
+      <p>Last Updated: 2022-08-08</p>
+      <p>Created: 2022-05-24</p>
+      <p>Language: English</p>
+      <p>Created by: User Name</p>
     </div>
     <div class="tocpage frontmatter">
       <nav role="doc-toc">
         <ol>
           <li>
             <a href="#_1_0">
-              Welcome!
+              Welcome to the 'Publishing Pipeline!
             </a>
             <ol>
+              <li>
+                <a href="#H4632171">
+                  What you'll need before you start
+                </a>
+                <ol>
+                  <li>
+                    <a href="#H5614484">
+                      For contributors
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#H9374516">
+                      For publication managers
+                    </a>
+                  </li>
+                </ol>
+              </li>
               <li>
                 <a href="#H584803">
                   Digital sovereignty
@@ -119,7 +136,7 @@
               </li>
               <li>
                 <a href="#H2087393">
-                  Features included
+                  Pipeline features
                 </a>
               </li>
               <li>
@@ -132,11 +149,16 @@
                   The steps used to create a publication
                 </a>
               </li>
+              <li>
+                <a href="#H4820656">
+                  Book data structure (parts of a book)
+                </a>
+              </li>
             </ol>
           </li>
           <li>
             <a href="#_2_0">
-              Step 1: Make a Repository and Website
+              Step 1: Make a Publication Git Repository and Website
             </a>
             <ol>
               <li>
@@ -148,6 +170,23 @@
                 <a href="#H1473428">
                   Step-by-step guide
                 </a>
+                <ol>
+                  <li>
+                    <a href="#H2479402">
+                      Create a repo
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#H9225084">
+                      Create a website
+                    </a>
+                  </li>
+                </ol>
+              </li>
+              <li>
+                <a href="#H4342812">
+                  Step 1 completion: What's next?
+                </a>
               </li>
               <li>
                 <a href="#_2_1">
@@ -158,8 +197,47 @@
           </li>
           <li>
             <a href="#_3_0">
-              Step 2: Create a Book
+              Step 2: Create a Book Project in Fidus Writer
             </a>
+            <ol>
+              <li>
+                <a href="#H8214025">
+                  Create placeholder documents for your book parts
+                </a>
+                <ol>
+                  <li>
+                    <a href="#H7006285">
+                      Create documents
+                    </a>
+                  </li>
+                </ol>
+              </li>
+              <li>
+                <a href="#H4439255">
+                  Add documents to a folder
+                </a>
+              </li>
+              <li>
+                <a href="#H642923">
+                  Add documents to a book
+                </a>
+              </li>
+              <li>
+                <a href="#H2561462">
+                  Configure your book
+                </a>
+              </li>
+              <li>
+                <a href="#H8269040">
+                  Connect and export your book to Git
+                </a>
+              </li>
+              <li>
+                <a href="#H6619707">
+                  Next steps
+                </a>
+              </li>
+            </ol>
           </li>
           <li>
             <a href="#_4_0">
@@ -198,17 +276,39 @@
         </ol>
       </nav>
     </div>
-    <div class="article-part article-title" id="_1_0">Welcome!</div>
+    <div class="article-part article-title" id="_1_0">Welcome to the 'Publishing Pipeline!</div>
     <div class="article-part article-richtext article-body">
-      <p>This is a quickstart guide for you to learn how use the rapid publishing pipeline for making reports, papers, manuals, or books, etc.</p>
-      <p>The quick start guide is for publication managers and contributors.</p>
+      <p>The 'publishing pipeline' connects the word processor to publishing. What this mean for publication production is that from the online multi-user editor you can automatically create and typeset multi-format outputs to file storage or live online - making updates at any time across all format outputs from one single-source. High quality layout designs are enables by combining pre-made 'design templates' with automate machine typesetting. This means that all the time-consuming layout work is taken out of the production time-line enabling a rapid publishing workflow.</p>
+      <p>This is a quick start guide for you to learn how use the 'publishing pipeline' for making multi-format publications: reports, manuals, books, and papers, etc.</p>
+      <p>The quick start guide is for contributors and publication managers. Technical administrator and developers, and typesetting layout designers, should see the 'Admin Guide'.</p>
       <figure id="F98934631" class="aligned-center image-width-100" data-aligned="center" data-width="100" data-category="none" data-caption-hidden="true"><img src="images/b3bc6ba5-db38-4ec8-89db-45c029fdb485.png"></figure>
-      <p>We'll be working with an online collaborative word processor and using 'one click publishing' to multi-format — all using secure, self-hosted, open-source software. You can distribute your publication as: a website, paginated website, PDF, print-on-demand, eBook, and more.</p>
-      <p>As a bonus we'll throw in some of the latest 'enhanced publication' features from the world of open science to create greater visibility and resuse of your publication.</p>
+      <p>We'll be working with an online collaborative word processor and publishing to multi-format — PDF, web, e-book, mobile, print-on-demand, etc. — all using 'digital sovereign' systems to ensure privacy and security, including: being self-hosted, GDPR compliant, and using open-source software, and more.</p>
+      <h2 id="H4632171">What you'll need before you start</h2>
+      <p>See instructions in the 'What You'll Need to Get Started: Account creation' section for creating all the accounts needed.</p>
+      <h3 id="H5614484">For contributors</h3>
+      <ol id="L93292561">
+        <li>
+          <p>A user account with the online word processors 'Fidus Writer'.</p>
+        </li>
+      </ol>
+      <h3 id="H9374516">For publication managers</h3>
+      <ol id="L61781181">
+        <li>
+          <p>A user account with the online word processor 'Fidus Writer'.</p>
+        </li>
+        <li>
+          <p>GitLab or/and GitHub accounts, depending on which supported Git platform your using.</p>
+        </li>
+        <li>
+          <p>Connect 'Fidus Writer' to your Git platform of choice.</p>
+        </li>
+      </ol>
       <h2 id="H584803">Digital sovereignty</h2>
-      <p>Our committed to security and privacy to keeping you personal information and content secure: The system can be self-hosted, is open-source, has full GDPR compliance, uses two factor authentication and OAuth authenication, and secure revision histories using cryptographic IDs and persistent IDs so your readers always know they are on the latest publication version. </p>
+      <p>The term 'digital sovereignty' is used here to describe the steps taken to ensure privacy of personal information and the security of content because of the encroachment of digital activity by corporations, as well as that of states.</p>
+      <p>To ensure your 'digital sovereignty' we combine data security measures, adherance to privacy legislation such as European General Data Protection Regulation (GDPR) or California Consumer Privacy Act (CCPA), and transparency of code and data storage.</p>
+      <p>The system can be self-hosted, is open-source, has full GDPR compliance, uses two factor authentication for admin areas, and OAuth authenication for authentication and authorization infrastructure (AAI) integration. </p>
       <figure id="F45597451" class="aligned-center image-width-75" data-aligned="center" data-width="75" data-category="none" data-caption-hidden="true"><img src="images/60a0cd01-c4e1-467e-a517-a5ae77dbbbaf.png"></figure>
-      <h2 id="H2087393">Features included</h2>
+      <h2 id="H2087393">Pipeline features</h2>
       <ul id="L58404751">
         <li>
           <p>Collaborative work space: invite designers, editors, proofers, or reviews to work on the book.</p>
@@ -232,7 +332,13 @@
       <h2 id="H7757657">What you will learn here:</h2>
       <ol id="L90418291">
         <li>
+          <p>Account creation for Fidus Writer, GitLab including GitLab.com and GitLab CE, and GitHub.</p>
+        </li>
+        <li>
           <p>How to prepare your public Git repository for storing your publication data, with an option to enable a website.</p>
+        </li>
+        <li>
+          <p>GitLab Pages and GitHub Pages website creation.</p>
         </li>
         <li>
           <p>To setup your publication's online collaborative word processor.</p>
@@ -241,17 +347,14 @@
           <p>Invite your team to collaborate on writing online.</p>
         </li>
         <li>
-          <p>How to Publish. </p>
-        </li>
-        <li>
-          <p>Adding 'enhanced publication' features to transform your work into a living publication.</p>
+          <p>How to publish.</p>
         </li>
       </ol>
       <h2 id="H3159430">The steps used to create a publication</h2>
       <figure id="F18710661" class="aligned-center image-width-50" data-aligned="center" data-width="50" data-category="none" data-caption-hidden="true"><img src="images/fec439eb-c4d6-4587-a4a2-affde7c45586.png"></figure>
       <ol id="L70094001">
         <li>
-          <p>Create a repository and website</p>
+          <p>Create a Git repository and website</p>
         </li>
         <li>
           <p>Create a book (collation of documents)</p>
@@ -266,14 +369,18 @@
           <p>About enhanced publications</p>
         </li>
       </ol>
+      <h2 id="H4820656">Book data structure (parts of a book)</h2>
+      <p>TBC</p>
+      <p></p>
     </div>
     <section class="fnlist" role="doc-footnotes"></section>
-    <div class="article-part article-title" id="_2_0">Step&nbsp;1: Make a Repository and Website</div>
+    <div class="article-part article-title" id="_2_0">Step&nbsp;1: Make a Publication Git Repository and Website</div>
     <div class="article-part article-richtext article-body">
-      <p>A repository is the data storage location of your outputted publication.</p>
+      <p>The Git repository (repo) is the storage location of your outputted publication which is connected to the net. A website can also be made from the repo with a selected content being made public. When your repo is updated, so is your website.</p>
+      <p>&lt;Add picture example of a. Git Repo and b. website. b is a select presentation of a.&gt;</p>
       <h2 id="H4018151">About</h2>
-      <p>The reposoitories use <a href="https://git-scm.com/" title="https://git-scm.com/">Git</a><a href="#fn1" class="fn"><span class="footnote-counter" data-chapter-counter="1" data-book-counter="1"></span></a> technology which allows for versioning of your publication.</p>
-      <p>We save to GitHub and GitLab <span class="citation">(Perkel&nbsp; 2016)</span>. GitLab can be used as <a href="GitLab.com" title="GitLab.com">GitLab.com</a> or as a self-hosted instance for private publications, or for staging publicatiobs. We use GitLab Community Edition for self-hosting which is open-source software. GitHub is not open-source but is useful for distribution and visibility.</p>
+      <p>The repository uses <a href="https://git-scm.com/" title="https://git-scm.com/">Git</a><a href="#fn1" class="fn"><span class="footnote-counter" data-chapter-counter="1" data-book-counter="1"></span></a> technology which allows for versioning of your publication. </p>
+      <p>We save to GitHub and GitLab <span class="citation">(Perkel&nbsp; 2016)</span>. GitLab can be used as <a href="GitLab.com" title="GitLab.com">GitLab.com</a> or as a self-hosted instance for public and private publications, or for staging publications for later transfer to another repo. We use GitLab Community Edition (GitLab CE) for self-hosting which is open-source software. GitHub is not open-source but is useful for publication distribution and visibility.</p>
       <figure id="F22345641" class="aligned-center image-width-50" data-aligned="center" data-width="50" data-category="none"><img src="images/26972b81-3aa5-42db-9da6-7ab6ab269dc3.jpg">
         <figcaption><span class="label"></span><span class="text">Git logo</span></figcaption>
       </figure>
@@ -284,14 +391,10 @@
         <figcaption><span class="label"></span><span class="text">GitLab logo</span></figcaption>
       </figure>
       <h2 id="H1473428">Step-by-step guide</h2>
-      <p>These instructions are for using GitHub. The principles are the same for GitLab.</p>
+      <p>These instructions are for using GitHub. The principles are the same for GitLub.</p>
       <p>These steps will allow you to create a repository to for your publication with the option for a website.</p>
+      <h3 id="H2479402">Create a repo</h3>
       <ol id="L7141501">
-        <li>
-          <p>Create an account</p>
-          <figure id="F22252491" class="aligned-center image-width-100" data-aligned="center" data-width="100" data-category="none" data-caption-hidden="true"><img src="images/56369a22-3b5a-4691-aa78-51a8bd4bba37.png"></figure>
-          <p>Go to the website <a href="https://github.com/" title="https://github.com/">GitHub.com</a> and create an account.</p>
-        </li>
         <li>
           <p>Use a GitHub Template Repository (Repo)</p>
           <p>You will create a prepopulated GitHub template repository for you publication. The template repo contains componts for creating the website and providing links to the other publication formats in the website.</p>
@@ -307,15 +410,15 @@
               <figure id="F34914491" class="aligned-center image-width-100" data-aligned="center" data-width="100" data-category="none" data-caption-hidden="true"><img src="images/e1a9d7d5-e934-4366-87e6-7b7fe69f5fd1.png"></figure>
               <p><strong>Where to save your repo?</strong> In GitHub you can save repos with organisations or in your personal account, select this under the field labeled 'Owner'.</p>
               <p><strong>How to name your repo?</strong> The name of the repo will be its display name and URL address. It is good practice to adopt a naming convention style to be inline with other publications, this might be a short title, or even an acronym. Note it is good practice to use only lowercase in the name as the URL is case sensitive. Names can be changed at any time but it will change any associated URLs.</p>
+              <p>Note: Repo names can be changed at any time, but this will change the website URL to be the new name and you must remember to update the URL in other places where you have used the URL address.</p>
               <p><strong>Other settings:</strong> You can give the repo a description; make the repo public is the default, and the click greed button.</p>
             </li>
           </ol>
-        </li>
-        <li>
-          <p>Turn on your website</p>
+          <h3 id="H9225084">Create a website</h3>
           <p>GitHub has a service called GitHub Pages. This creates free websites on the domain github.io or you can use your own custom domain. The default URL address pattern is https://organisation-name.github.io/publication-name/. The content from your repo will be available on the URL. </p>
+          <p>Note: Websites can be given custom domain names. You will need to consult GitHub documentation to enable this feature.</p>
           <p>This is a two step process.</p>
-          <p><strong>First:</strong></p>
+          <p><strong>Step 1:</strong></p>
           <figure id="F72332451" class="aligned-center image-width-100" data-aligned="center" data-width="100" data-category="none" data-caption-hidden="true"><img src="images/cd4aad9d-5d95-4ecd-944d-f1f6ce8e75f3.png"></figure>
           <p>Navigate to 'Settings' in the top horizontal options. In settings on the left menu select 'Pages'. In the dialog in the main page use the following settings: Select branch - main; select folder - root, and; click save. This will complete the site creation and give you a URL for your website. Copy the URL and you can then use it to add address to front end of the repo.</p>
           <figure id="F78400191" class="aligned-center image-width-100" data-aligned="center" data-width="100" data-category="none" data-caption-hidden="true"><img src="images/d941d969-3938-4dec-aa57-a45debb46e84.png"></figure>
@@ -332,45 +435,110 @@
           <figure id="F41371831" class="aligned-center image-width-100" data-aligned="center" data-width="100" data-category="none" data-caption-hidden="true"><img src="images/a4d479fd-2aea-4114-8740-571c5d952b93.png"></figure>
           <figure id="F50720561" class="aligned-center image-width-100" data-aligned="center" data-width="100" data-category="none" data-caption-hidden="true"><img src="images/693958a1-b909-4dfd-ac6a-0ede6a0c344b.png"></figure>
         </li>
-        <li>
-          <p>Connect Fidus Writer to GitHub</p>
-          <p></p>
-        </li>
-        <li>
-          <p>Export your publication to GitHub</p>
-        </li>
-        <li>
-          <p>Add a README to your repo</p>
-        </li>
-        <li>
-          <p>You can allow team members to export to GitHub too — this will be covered in the invite team section.</p>
-        </li>
       </ol>
+      <h2 id="H4342812">Step 1 completion: What's next?</h2>
+      <p>Now that you have your repo and website setup, next you will set-up a book project in Fidus Writer and connect it to your Git repo, this will allow you to output book files from Fidus Writer to Git.</p>
       <p></p>
     </div>
     <section class="fnlist" role="doc-footnotes">
       <section id="fn1" role="doc-footnote" data-chapter-counter="1" data-book-counter="1">
-        <p><span class="footnote-counter" data-chapter-counter="1" data-book-counter="1"></span>Git is open-source software that both <a href="https://github.com/" title="https://github.com/">GitHub</a> and <a href="https://about.gitlab.com/" title="https://about.gitlab.com/">GitLab</a> are built on – think of it as a time machine for code and all that could do.</p>
+        <p><span class="footnote-counter" data-chapter-counter="1" data-book-counter="1"></span>Git is open-source software that both <a href="https://github.com/" title="https://github.com/">GitHub</a> and <a href="https://about.gitlab.com/" title="https://about.gitlab.com/">GitLab</a> are built on – think of it as a 'time machine for code' and all that could do.</p>
       </section>
     </section>
     <h1 class="article-bibliography-header" id="_2_1">Bibliography</h1>
     <div class="csl-bib-body">
       <div class="csl-entry">Perkel&nbsp;, Jeffrey . 2016. “Democratic Databases: Science on GitHub.” <i>Nature</i>, 2016. https://www.nature.com/articles/538127a.</div>
     </div>
-    <div class="article-part article-title" id="_3_0">Step 2: Create a Book</div>
+    <div class="article-part article-title" id="_3_0">Step 2: Create a Book Project in Fidus Writer</div>
     <div class="article-part article-richtext article-body">
-      <p>Create placeholder documents for your book</p>
+      <p>The book project in Fidus Writer will act as an empty container for your book, later on you can change all the file names and book information to reflect your books title and content. You can also add and remove documents at any time.</p>
+      <p>&lt;Setup Steps Progress: Book data structure (parts of a book) - diagram&gt;</p>
+      <p> &lt;Book data structure (parts of a book)&gt;</p>
+      <p>Note: Some parts of the book are generated automatically and cannot be edited directly and may depend on book settings, document templates, or book styles, or specific format output filters, these are: </p>
+      <ul id="L50652101">
+        <li>
+          <p>Covers</p>
+        </li>
+        <li>
+          <p>Table of Contents</p>
+        </li>
+        <li>
+          <p>Page numbering</p>
+        </li>
+        <li>
+          <p>Page headers and footers</p>
+        </li>
+        <li>
+          <p>References and footnotes: Placement as page notes or end notes, citation style</p>
+        </li>
+        <li>
+          <p>List of figures and tables</p>
+        </li>
+        <li>
+          <p>Section title pages</p>
+        </li>
+        <li>
+          <p>Placement of blank pages</p>
+        </li>
+        <li>
+          <p>Title page, and other front matter content divisions and styles</p>
+        </li>
+      </ul>
+      <p>What's covered here:</p>
+      <ol id="L84796311">
+        <li>
+          <p>Create placeholder documents for your book parts</p>
+        </li>
+        <li>
+          <p>Create a 'personal' folder (only you see this - it is not shared) for your book documents</p>
+        </li>
+        <li>
+          <p>Create a Fidus Writer book - a collation of book documents, make divisions into book parts </p>
+        </li>
+        <li>
+          <p>Book configuration and adding book information and cover</p>
+        </li>
+        <li>
+          <p>Connecting your Fidus Writer book project to your Git repo</p>
+        </li>
+      </ol>
+      <h2 id="H8214025">Create placeholder documents for your book parts</h2>
+      <p>Placeholder document examples:</p>
+      <ul id="L53525721">
+        <li>
+          <p>Front Matter: Where you will add imprint, contributor information, acknowledgements, etc.</p>
+        </li>
+        <li>
+          <p>Section 1: A top level part of a book as section or chapter</p>
+        </li>
+        <li>
+          <p>Section 2</p>
+        </li>
+        <li>
+          <p>Section 3</p>
+        </li>
+        <li>
+          <p>Back Matter: This can contain appendices, glossaries, abbreviations, etc.</p>
+        </li>
+      </ul>
+      <h3 id="H7006285">Create documents</h3>
+      <p>Navigate to 'Documents' area of the website. In the sub-menu below documents select 'Create new document' and choose 'Book Default' document template. If you are working on a special book or publication series you might use a different document template.</p>
+      <p>Here you will add three documents as placeholders. These are added so you can configure your book basics, names and documents can be changed or deleted later: Front Matter; Section 1, and; Back Matter.</p>
+      <p>&lt;add screen shots for document creation: 1. Add, 2. select doc template, 3. document title and document name, 4 Close document, document settings&gt;</p>
       <figure id="F35194901" class="aligned-center image-width-100" data-aligned="center" data-width="100" data-category="figure"><img src="images/9e5d1d14-244e-4d55-b1f9-effb37b619e9.png">
         <figcaption><span class="label-counter" data-book-counter="1" data-chapter-counter="1">Figure</span><span class="text">Adding documents to be used in your book</span></figcaption>
       </figure>
+      <p></p>
+      <p></p>
       <figure id="F72135581" class="aligned-center image-width-100" data-aligned="center" data-width="100" data-category="figure"><img src="images/2be7082d-cf81-4659-be99-15f41a555f0a.png">
         <figcaption><span class="label-counter" data-book-counter="2" data-chapter-counter="2">Figure</span><span class="text">Edit document and add a title</span></figcaption>
       </figure>
-      <p></p>
-      <p>Create a book</p>
+      <h2 id="H4439255">Add documents to a folder</h2>
+      <h2 id="H642923">Add documents to a book</h2>
       <figure id="F3646981" class="aligned-center image-width-100" data-aligned="center" data-width="100" data-category="figure"><img src="images/e38b98ce-9984-4980-9b46-52a2a0acdbe5.png">
         <figcaption><span class="label-counter" data-book-counter="3" data-chapter-counter="3">Figure</span><span class="text">Book section, add your book here</span></figcaption>
       </figure>
+      <h2 id="H2561462">Configure your book</h2>
       <figure id="F63655341" class="aligned-center image-width-100" data-aligned="center" data-width="100" data-category="figure"><img src="images/8a7e23ca-ece1-4c13-8192-e6b2ff7e5fc0.png">
         <figcaption><span class="label-counter" data-book-counter="4" data-chapter-counter="4">Figure</span><span class="text">Add book information</span></figcaption>
       </figure>
@@ -379,7 +547,10 @@
         <figcaption><span class="label-counter" data-book-counter="5" data-chapter-counter="5">Figure</span><span class="text">Add your documents to the book</span></figcaption>
       </figure>
       <p></p>
-      <p> </p>
+      <h2 id="H8269040">Connect and export your book to Git</h2>
+      <p></p>
+      <h2 id="H6619707">Next steps</h2>
+      <p></p>
     </div>
     <section class="fnlist" role="doc-footnotes"></section>
     <div class="article-part article-title" id="_4_0">Step 3: Invite Your Team</div>
