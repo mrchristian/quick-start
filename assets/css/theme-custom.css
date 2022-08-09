@@ -258,7 +258,7 @@ color: var(--base-color);
   font-size: 0.8rem;
 }
 .sidebar-nav #toc ol li::before {
-  content: '\f107';
+  content: '\f061';
   font: var(--fa-font-solid);
   line-height: 2;
   font-weight: 900;
@@ -287,7 +287,7 @@ color: var(--base-color);
   color: #000;
 }
 .content .markdown-section .tocpage ol li::before {
-  content: '\f107';
+  content: '\f061';
   font: var(--fa-font-solid);
   line-height: 1.5;
   float: left;
