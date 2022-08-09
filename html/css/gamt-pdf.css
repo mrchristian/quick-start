@@ -115,7 +115,7 @@ src: local('Fira Sans Regular'), local('FiraSans-Regular'), url(media/FiraSans-R
 @page :first {
   size: 210mm 297mm;
   background-image: linear-gradient(#2062af,#20215E 80%, #fff 10%);
-  background-size: size: size: 210mm 297mm;
+  background-size: 210mm 297mm;
   display: flex;
   margin-top: 300mm;
   color: #001668 ;
