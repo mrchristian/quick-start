@@ -203,7 +203,7 @@ border: none;
 }
 
 .content .markdown-section .article-body ol {
-  font-size: var(--base-font-size);
+  font-size: var(--base-font-size)!important;
   font-family: var(--base-font-family);
   line-height: 1.6rem;
 }
