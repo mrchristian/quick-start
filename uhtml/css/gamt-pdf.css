@@ -114,7 +114,7 @@ src: local('Fira Sans Regular'), local('FiraSans-Regular'), url(media/FiraSans-R
 
 @page :first {
   size: 210mm 297mm;
-  background-image: linear-gradient(#2062af,#20215E 80%,#fff 10%);
+  background-image: linear-gradient(#2062af,#20215E 80%, #fff 10%);
   background-size: 210mm 297mm;
   display: flex;
   margin-top: 30mm;
@@ -124,8 +124,8 @@ src: local('Fira Sans Regular'), local('FiraSans-Regular'), url(media/FiraSans-R
   @bottom-center { content: normal; }
 	@bottom-right { content: normal; }
 	@top-left { content: normal; }
-  @top-right { content: normal; }
-  @top-center { content: normal; }
+  @top-right { content: normal;}
+  @top-center { content: normal;}
 }
 
 @page :left {
@@ -466,8 +466,7 @@ h1.article-bibliography-header {
   font-family: "Fira Sans", helvetica neue, arial, sans-serif;
   font-size: 1.395rem;
   text-align: left;
-  margin-bottom: 20pt;
-  margin-bottom: 9pt;
+  margin-bottom: 0;
   page-break-inside: avoid;
   page-break-after: avoid;
   text-transform: none;
